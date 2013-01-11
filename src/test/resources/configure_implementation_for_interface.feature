@@ -5,3 +5,6 @@ Feature: Configure Implementation for Interface
     
   Scenario: Depend on an implementation directly
     Given my dependency doesn't have an interface
+    
+  Scenario: Transitive dependencies
+    Given I depend on something that has transitive dependencies
